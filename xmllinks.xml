@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Servers>
-	<ServerGroup Name="Sphereii-mental" Logo="" Description="Highly Experimental DMT Builds">
-		<Server Name="Winter Project 2019" Logo="">
+	<ServerGroup Name="Disco Pimps" Logo="" Description="Phase 1">
+		<Server Name="Pimp Juice" Logo="">
 			<Description>
 Welcome to the Winter Project 2019 by sphereii and xyth
 
@@ -11,23 +11,13 @@ Enter in our cold and unforgiving world buried under a snow apocalypse. Find new
 
 The following Pre-generated worlds are provided for faster loads:
 
-	Winter Project 4K
-	Winter Project 6K
-	Winter Project 8K
+
 
 Navezgane and Random Gen should generate correctly now.        
 
 Thank you to the following Modlet creators who helped shape out the world with their modlets:
-	Donovan's Better Bridges, Better Spears, Craft Jail and Craft Spikes modlets.
-	TormentedEmu's GUI Manager for Localization support for A18.2
-	JaxTeller718 for his Charcola, Eggs in Fridges, More Feathers, Working Stoves and Zombie Hand Adjustments
-	Mean Cloud's Scrap Bone Knives
-	Atlas' More Vanilla Food
-	Oignon's Vehicles Pack, Sittable Furniture
-	bdubyah's Rebar Club, and Wasteland Weapons
-	Stallionsden's Lootable Objects, Store Shelves, and his prots of Valmar's Expanded ammo types and cooking bowls
-	War2zuk's Disassemble Ammo
 
+                  Warz3k
 Special thanks goes to Mumpfy for his texturing work.
 
 			</Description>

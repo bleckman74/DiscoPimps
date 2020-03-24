@@ -3,22 +3,6 @@
 	<ServerGroup Name="Disco Pimps" Logo="" Description="Phase 1">
 		<Server Name="Pimp Juice" Logo="">
 			<Description>
-Welcome to the Winter Project 2019 by sphereii and xyth
-
-After many delays, the Winter Project 2019 arrived just in time to be fashionably late. 
-
-Enter in our cold and unforgiving world buried under a snow apocalypse. Find new challenges as you explore the desolate icy wasteland.
-
-The following Pre-generated worlds are provided for faster loads:
-
-
-
-Navezgane and Random Gen should generate correctly now.        
-
-Thank you to the following Modlet creators who helped shape out the world with their modlets:
-
-                  Warz3k
-Special thanks goes to Mumpfy for his texturing work.
 
 			</Description>
 				<Version>Latest</Version>

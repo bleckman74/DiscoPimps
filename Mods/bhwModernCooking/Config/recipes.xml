@@ -1,0 +1,19 @@
+<bhwModernCooking>
+
+<!-- bhwModernCooking Edits Start -->
+	<append xpath="/recipes">
+
+		<recipe name="modernCookingHelper" count="1" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceElectricParts" count="4"/>
+			<ingredient name="resourceMetalPipe" count="1"/>
+		</recipe>
+
+	<!-- Closing Append tag for all Added Recipes -->
+	</append>
+
+<!-- All set xpath edits below here -->
+
+<!-- bhwModernCooking Edits End -->
+
+</bhwModernCooking>

@@ -1,5 +1,0 @@
-<configs>
-<insertAfter xpath="/lootcontainers/lootgroup[@name='beverages']/item[@name='drinkJarBeer']">
-	<item name="Dr. Prepper"/>
-</insertAfter>
-</configs>

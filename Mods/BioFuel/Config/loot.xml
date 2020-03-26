@@ -1,5 +1,0 @@
-<configs>
-	<append xpath="/lootcontainers/lootcontainer[@id='65']">
-		<item name="resourceTurd" count="1,2"/>
-	</append>
-</configs>

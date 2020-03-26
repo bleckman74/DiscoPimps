@@ -1,5 +1,0 @@
-<configs>
-	
-	<set xpath="/lootcontainers/lootcontainer[@id='2' and @size]/@size">11,12</set>
-	
-</configs>

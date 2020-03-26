@@ -1,0 +1,13 @@
+<mod>
+	<info>
+		<author>stasis, Maintained by DEMMERS</author>
+		<name>FarmLifeV3</name>
+		<description>Stasis' FarmLifeV3 - livin' the, Farm Life :) 
+		Thanks to the following for making this happen, and squashing them bugs!
+		chikorinakitty, for localization fixes and quests patching
+		psouza4 for intial work on the port to 18.3</description>
+		<mod_version>1.3.5</mod_version>
+		<game_version>18.4</game_version>
+		<launcher_version>0.0.0</launcher_version>
+	</info>
+</mod>

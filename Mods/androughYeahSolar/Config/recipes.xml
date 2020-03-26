@@ -1,0 +1,26 @@
+<configs>
+
+<append xpath="/recipes">
+
+<recipe name="solarCell" count="1" craft_area="chemistryStation" tags="learnable,perkYeahScience,chemStationCrafting">
+	<ingredient name="glassBulletproofBlockVariantHelper" count="5"/>
+	<ingredient name="resourceForgedSteel" count="5"/>
+	<ingredient name="resourceAcid" count="1"/>
+	<ingredient name="resourceScrapPolymers" count="10"/>
+	<ingredient name="resourceElectricParts" count="10"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value="1,5" tags="glassBulletproofBlockVariantHelper,resourceForgedSteel,resourceAcid,resourceScrapPolymers,resourceElectricParts"/>
+	</effect_group>
+</recipe>
+
+<recipe name="solarbank" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceForgedSteel" count="20"/>
+	<ingredient name="glassBulletproofBlockVariantHelper" count="4"/>
+	<ingredient name="resourceElectricParts" count="10"/>
+	<ingredient name="resourceScrapPolymers" count="10"/>
+	<ingredient name="resourceForgedIron" count="20"/>
+</recipe>
+
+</append>
+
+</configs>

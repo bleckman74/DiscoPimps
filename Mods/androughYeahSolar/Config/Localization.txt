@@ -1,0 +1,6 @@
+Key,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
+perkYeahScienceRank1LongDesc,progression,Perk,New,You have started on the path of science and are scholar. Craft chemistry stations and craft items with them 20% faster. Craft faulty solar cells and the solar bank.,,,,,
+perkYeahScienceRank2LongDesc,progression,Perk,New,"You're now a professor and are learning practical science. Craft advanced medical items such as first aid bandages and plaster casts, cooking pot and pressure plate mines, gasoline & oil. Craft poor solar cells.  ",,,,,
+perkYeahScienceRank3LongDesc,progression,Perk,New,"Your friends call you the chemist and your enemies go boom. Craft first aid kits, steroids, military fiber and hub cap mines.  Craft fair solar cells.",,,,,
+perkYeahScienceRank4LongDesc,progression,Perk,New,"You've advanced to research scientist. Craft antibiotics, battery banks, batteries and air filter mines. Craft good solar cells.",,,,,
+perkYeahScienceRank5LongDesc,progression,Perk,New,Nobody understands quantum physics but it sounds cool so you'll take the title. Craft fortbites and recog. Craft great solar cells.,,,,,

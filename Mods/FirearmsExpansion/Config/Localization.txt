@@ -1,0 +1,21 @@
+﻿Key,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
+
+M4A1Desc,items,Ammo,New,This M4A1 Machine Gun uses 7.62mm ammo.\n\nRepair with a Repair Kit.\nScrap to Machine Gun Parts.,,,,,
+
+Chaingun,items,Gun,New,Chaingun,,,,,
+ChaingunDesc,items,Gun,New,This thing that uses 7.62mm Ammo doesn't need a description.\n\nRepair with a Repair Kit.\nScrap to Machine Gun Parts.,,,,,
+
+M98,items,Gun,New,M98 Sniper Rifle,,,,,
+M98Desc,items,Gun,New,Very Powerful SemiAutomatic rifle that uses 7.62mm ammo.\n\nRepair with a Repair Kit.\nScrap to Hunting Rifle Parts.,,,,,
+
+SR25,items,Gun,New,SR25 Rifle,,,,,
+SR25Desc,items,Gun,New,Fast SemiAutomatic Rifle that uses 7.62mm ammo.\n\nRepair with a Repair Kit.\nScrap to Hunting Rifle Parts.,,,,,
+
+Mossberg590A1,items,Gun,New,Mossberg 590A1,,,,,
+Mossberg590A1Desc,items,Gun,New,Powerful SemiAutomatic Shotgun that uses all Shell Types.\n\nRepair with a Repair Kit.\nScrap to Shotgun Parts.,,,,,
+
+Mac10,items,Gun,New,Mac 10,,,,,
+Mac10Desc,items,Gun,New,Weak but fast Automatic Submachine Gun that uses 9mm Ammo.\n\nRepair with a Repair Kit.\nScrap to Pistol Parts.,,,,,
+
+Glock40,items,Gun,New,Glock 40,,,,,
+Glock40Desc,items,Gun,New,SemiAutomatic Glock that uses 9mm ammo.\n\nRepair with a Repair Kit.\nScrap to Pistol Parts.,,,,,

@@ -1,0 +1,88 @@
+<FirearmsExpansion>
+
+
+<insertBefore xpath="/lootcontainers/lootgroup[@name='groupQuestChallenge']">
+<lootgroup name="RemingtonM4A1+ammo" count="all">
+	<item name="Remington M4A1"/>
+	<item name="ammo762mmBulletBall" count="10,35"/>
+</lootgroup>
+<lootgroup name="SR25+ammo" count="all">
+	<item name="SR25"/>
+	<item name="ammo762mmBulletBall" count="5,15"/>
+</lootgroup>
+<lootgroup name="M98+ammo" count="all">
+	<item name="M98"/>
+	<item name="ammo762mmBulletBall" count="2,7"/>
+</lootgroup>
+<lootgroup name="Mossberg+ammo" count="all">
+	<item name="Mossberg590A1"/>
+	<item name="ammoShotgunShell" count="4,15"/>
+</lootgroup>
+<lootgroup name="Mac10+ammo" count="all">
+	<item name="Mac10"/>
+	<item name="ammo9mmBulletBall" count="10,35"/>
+</lootgroup>
+<lootgroup name="Glock40+ammo" count="all">
+	<item name="Glock40"/>
+	<item name="ammo9mmBulletBall" count="6,20"/>
+</lootgroup>
+</insertBefore>
+
+
+<append xpath="lootcontainers/lootgroup[@name='schematicsWeaponsRare']">
+	<item name="Remington M4A1 Schematic"/>
+	<item name="Chaingun Schematic"/>
+	<item name="SR25 Schematic"/>
+	<item name="Mossberg Schematic"/>
+	<item name="Mac10 Schematic"/>
+	<item name="Glock40 Schematic"/>
+	<item name="M98 Schematic"/>
+	
+	
+</append> 
+
+
+
+<append xpath="lootcontainers/lootgroup[@name='groupWeapons_Machinegunner']">
+	<item group="RemingtonM4A1+ammo" loot_prob_template="T2" prob="0.8"/>
+</append> 
+<append xpath="lootcontainers/lootgroup[@name='groupWeapons_MachinegunnerTPlus']">
+	<item group="RemingtonM4A1+ammo" loot_prob_template="T2" prob="0.8"/>
+</append> 
+
+<append xpath="lootcontainers/lootgroup[@name='groupWeapons_Gunslinger']">
+	<item group="Mac10+ammo" loot_prob_template="T2" prob="0.6"/>
+</append> 
+<append xpath="lootcontainers/lootgroup[@name='groupWeapons_GunslingerTPlus']">
+	<item group="Mac10+ammo" loot_prob_template="T2" prob="0.6"/>
+</append> 
+
+<append xpath="lootcontainers/lootgroup[@name='groupWeapons_Gunslinger']">
+	<item group="Glock40+ammo" loot_prob_template="T2" prob="0.8"/>
+</append> 
+<append xpath="lootcontainers/lootgroup[@name='groupWeapons_GunslingerTPlus']">
+	<item group="Glock40+ammo" loot_prob_template="T2" prob="0.8"/>
+</append> 
+
+<append xpath="lootcontainers/lootgroup[@name='groupWeapons_DeadEye']">
+	<item group="SR25+ammo" loot_prob_template="T2" prob="0.8"/>
+</append> 
+<append xpath="lootcontainers/lootgroup[@name='groupWeapons_DeadEyeTPlus']">
+	<item group="SR25+ammo" loot_prob_template="T2" prob="0.8"/>
+</append> 
+
+<append xpath="lootcontainers/lootgroup[@name='groupWeapons_DeadEye']">
+	<item group="M98+ammo" loot_prob_template="T3" prob="0.6"/>
+</append> 
+<append xpath="lootcontainers/lootgroup[@name='groupWeapons_DeadEyeTPlus']">
+	<item group="M98+ammo" loot_prob_template="T3" prob="0.6"/>
+</append> 
+
+<append xpath="lootcontainers/lootgroup[@name='groupWeapons_Boomstick']">
+	<item group="Mossberg+ammo" loot_prob_template="T3" prob="0.6"/>
+</append> 
+<append xpath="lootcontainers/lootgroup[@name='groupWeapons_BoomstickTPlus']">
+	<item group="Mossberg+ammo" loot_prob_template="T3" prob="0.6"/>
+</append> 
+
+</FirearmsExpansion>

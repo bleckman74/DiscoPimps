@@ -1,0 +1,289 @@
+<FirearmsExpansion>
+
+
+
+<append xpath="/item_modifiers/item_modifier[@name='modGunSoundSuppressorSilencer']">
+		<item_property_overrides name="Remington M4A1">
+			<property name="Sound_start" value="silence4"/>
+			<property name="Sound_loop" value="silence4"/>
+			<property name="BarrelOffset" value="-0.001,0.0050,0.2800"/>
+			<property name="BarrelScale" value="1,1,1"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="M98">
+			<property name="Sound_start" value="silence7"/>
+			<property name="Sound_loop" value="silence7"/>
+			<property name="BarrelOffset" value="0,-.005,0.52"/>
+			<property name="BarrelScale" value=".16,.16,.2"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="Mossberg590A1">
+			<property name="Sound_start" value="silence1"/>
+			<property name="Sound_loop" value="silence1"/>
+			<property name="BarrelOffset" value="0,-0.035,0.267"/>
+			<property name="BarrelScale" value="1,1,1"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="Mac10">
+			<property name="Sound_start" value="silencea"/>
+			<property name="Sound_loop" value="silencea"/>
+			<property name="BarrelOffset" value=".007,0,-0.038"/>
+			<property name="BarrelScale" value="1,1,1"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="Glock40">
+			<property name="Sound_start" value="silence6"/>
+			<property name="Sound_loop" value="silence6"/>
+			<property name="BarrelOffset" value="-.001,0,-0.0734"/>
+			<property name="BarrelScale" value=".5,.5,.5"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="SR25">
+			<property name="Sound_start" value="silence6"/>
+			<property name="Sound_loop" value="silence6"/>
+			<property name="BarrelOffset" value="0,-.008,.442"/>
+			<property name="BarrelScale" value="1,1,1"/>
+		</item_property_overrides>
+	</append>
+
+
+
+	<append xpath="/item_modifiers/item_modifier[@name='modGunLaserSight']">
+		<item_property_overrides name="Remington M4A1">
+			<property name="SideOffset" value="0,0.0510,0.31"/>
+			<property name="SideScale" value="1,1,1"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="M98">
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="SideOffset" value="0,.005,0.135"/>
+			<property name="SideScale" value=".25,.25,.25"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="Mossberg590A1">
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="SideOffset" value="0,-.049,0.23"/>
+			<property name="SideScale" value="1,1,1"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="Mac10">
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="SideOffset" value="0.007,0.02,0"/>
+			<property name="SideScale" value=".5,.5,.5"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="Glock40">
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="SideOffset" value="0,0.0136,0"/>
+			<property name="SideScale" value="1,1,1"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="SR25">
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="SideOffset" value="0,0,0.31"/>
+			<property name="SideScale" value=".6,.7,.7"/>
+		</item_property_overrides>
+	</append>
+
+
+
+	<append xpath="/item_modifiers/item_modifier[@name='modGunFlashlight']">
+		<item_property_overrides name="Remington M4A1">
+			<property name="SideOffset" value="0,0.0480,0.31"/>
+			<property name="SideScale" value="1,1,1"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="M98">
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="SideOffset" value="0,.005,0.135"/>
+			<property name="SideScale" value=".25,.25,.25"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="Mossberg590A1">
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="SideOffset" value="0,-.049,0.23"/>
+			<property name="SideScale" value="1,1,1"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="Mac10">
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="SideOffset" value="0.007,0.02,0"/>
+			<property name="SideScale" value=".5,.5,.5"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="Glock40">
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="SideOffset" value="0,0.0136,0"/>
+			<property name="SideScale" value="1,1,1"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="SR25">
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="SideOffset" value="0,0,0.31"/>
+			<property name="SideScale" value=".6,.7,.7"/>
+		</item_property_overrides>
+	</append>
+
+
+
+	<append xpath="/item_modifiers/item_modifier[@name='modGunReflexSight']">
+		<item_property_overrides name="Remington M4A1">
+			<property name="ScopeOffset" value="0,0.105,-0.0560"/>
+			<property name="ScopeScale" value="0.63,0.63,0.63"/>
+			<property name="ScopeCameraOffset" value="0,-.0245,0"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="M98">
+			<property name="Meshfile" value="#@modfolder:Resources/Firearms6.unity3d?M98SniperPrefabSight"/>
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="ScopeCameraOffset" value="0.00321,-0.026,0.14"/>
+			<property name="ScopeOffset" value="-0.003,.0835,-0.06"/>
+			<property name="ScopeScale" value=".8,.8,1"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="Mossberg590A1">
+			<property name="Meshfile" value="#@modfolder:Resources/Firearms6.unity3d?MossbergSightPrefab"/>
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="ScopeCameraOffset" value="-0.0005,-0.0298,0.025"/>
+			<property name="ScopeOffset" value="0,0.051,-0.06"/>
+			<property name="ScopeScale" value=".5,.5,.5"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="Mac10">
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="ScopeCameraOffset" value="-0.0065,-0.03286,0.23"/>
+			<property name="ScopeOffset" value="0.007,.079,-0.06"/>
+			<property name="ScopeScale" value="1,1,1"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="Glock40">
+			<property name="CrosshairOnAim" value="true"/>
+			<property name="ScopeCameraOffset" value="0.00321,-0.031,0.14"/>
+			<property name="ScopeOffset" value="-0.0036,0.076,-0.056"/>
+			<property name="ScopeScale" value=".9,.8,1"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="SR25">
+			<property name="Meshfile" value="#@modfolder:Resources/Firearms6.unity3d?SR25PrefabSight"/>
+			<property name="CrosshairOnAim" value="true"/>
+			<property name="ScopeCameraOffset" value="-0.00015,-0.0211,0.052"/>
+			<property name="ScopeOffset" value="0,.079,-0.06"/>
+			<property name="ScopeScale" value="0.9,0.9,0.9"/>
+		</item_property_overrides>
+		</append>
+
+
+
+	<append xpath="/item_modifiers/item_modifier[@name='modGunScopeSmall']">
+		<item_property_overrides name="Remington M4A1">
+			<property name="ScopeOffset" value="0,0.1100,-0.1"/>
+			<property name="ScopeScale" value="1.05,1.05,1.05"/>
+			<property name="ScopeCameraOffset" value="0,-0.025,0"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="M98">
+			<property name="Meshfile" value="#@modfolder:Resources/Firearms6.unity3d?M98SniperPrefabSight"/>
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="ScopeCameraOffset" value="0.00321,-0.026,0.14"/>
+			<property name="ScopeOffset" value="-0.003,.0845,-0.09"/>
+			<property name="ScopeScale" value=".8,.8,1"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="Mossberg590A1">
+			<property name="Meshfile" value="#@modfolder:Resources/Firearms6.unity3d?MossbergSightPrefab"/>
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="ScopeCameraOffset" value="0.0005,-0.0235,0.015"/>
+			<property name="ScopeOffset" value="0,0.054,-0.09"/>
+			<property name="ScopeScale" value=".8,.9,1"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="Mac10">
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="ScopeCameraOffset" value="-0.0065,-0.0428,0.18"/>
+			<property name="ScopeOffset" value="0.007,.098,-0.12"/>
+			<property name="ScopeScale" value="1,1,1"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="Glock40">
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="ScopeCameraOffset" value="0.0005,-0.0329,0.1"/>
+			<property name="ScopeOffset" value="0,0.087,-0.13"/>
+			<property name="ScopeScale" value=".9,.8,1"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="SR25">
+			<property name="Meshfile" value="#@modfolder:Resources/Firearms6.unity3d?SR25PrefabSight"/>
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="ScopeCameraOffset" value="0.0005,-0.0193,0.04"/>
+			<property name="ScopeOffset" value="0,0.087,-0.12"/>
+			<property name="ScopeScale" value="1,1,1"/>
+		</item_property_overrides>
+	</append>
+
+
+
+	<append xpath="/item_modifiers/item_modifier[@name='modGunScopeMedium']">
+		<item_property_overrides name="Remington M4A1">
+			<property name="ScopeOffset" value="0,0.1000,-0.0950"/>
+			<property name="ScopeScale" value="1,1,1"/>
+			<property name="ScopeCameraOffset" value="0,-.026,0"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="M98">
+			<property name="Meshfile" value="#@modfolder:Resources/Firearms6.unity3d?M98SniperPrefabSight"/>
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="ScopeCameraOffset" value="0.00321,-0.026,0.14"/>
+			<property name="ScopeOffset" value="-0.003,.084,-0.06"/>
+			<property name="ScopeScale" value=".8,.8,1"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="Mossberg590A1">
+			<property name="Meshfile" value="#@modfolder:Resources/Firearms6.unity3d?MossbergSightPrefab"/>
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="ScopeCameraOffset" value="-0.0005,-0.0298,0.025"/>
+			<property name="ScopeOffset" value="0,0.051,-0.06"/>
+			<property name="ScopeScale" value=".5,.5,.5"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="Mac10">
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="ScopeCameraOffset" value="-0.0065,-0.03286,0.23"/>
+			<property name="ScopeOffset" value="0.007,.079,-0.06"/>
+			<property name="ScopeScale" value="1,1,1"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="Glock40">
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="ScopeCameraOffset" value="0.00321,-0.031,0.14"/>
+			<property name="ScopeOffset" value="-0.0036,0.076,-0.056"/>
+			<property name="ScopeScale" value=".9,.8,1"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="SR25">
+			<property name="Meshfile" value="#@modfolder:Resources/Firearms6.unity3d?SR25PrefabSight"/>
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="ScopeCameraOffset" value="-0.00015,-0.0211,0.052"/>
+			<property name="ScopeOffset" value="0,.079,-0.06"/>
+			<property name="ScopeScale" value="1,1,1"/>
+		</item_property_overrides>
+	</append>
+
+	<append xpath="/item_modifiers/item_modifier[@name='modGunScopeLarge']">
+		<item_property_overrides name="M98">
+			<property name="Meshfile" value="#@modfolder:Resources/Firearms6.unity3d?M98SniperPrefabSight"/>
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="ScopeCameraOffset" value="0.00321,-0.026,0.14"/>
+			<property name="ScopeOffset" value="-0.003,.014,-0.021"/>
+			<property name="ScopeScale" value="1.1,1.1,1.1"/>
+		</item_property_overrides>
+	</append>
+
+
+			
+
+
+
+</FirearmsExpansion>
+
+
+

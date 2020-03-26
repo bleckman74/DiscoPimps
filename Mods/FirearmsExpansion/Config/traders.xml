@@ -1,0 +1,19 @@
+<FirearmsExpansion>
+
+
+<append xpath="/traders/trader_item_groups/trader_item_group[@name='weaponsGunsT2']">
+	<item name="Remington M4A1"/>
+	<item name="SR25"/>
+	<item name="Mac10"/>
+	<item name="Glock40"/>
+</append>
+
+<append xpath="/traders/trader_item_groups/trader_item_group[@name='weaponsGunsT3']">
+	<item name="Chaingun"/>
+	<item name="M98"/>
+	<item name="Mossberg590A1"/>
+</append>
+
+
+
+</FirearmsExpansion>
